@@ -1,0 +1,76 @@
+body{
+    background:linear-gradient(black) ;
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181B;
+    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+h1{
+    color: red;
+    text-align: center;
+    text-shadow: 1px 1px 7px;
+    font-style: italic;
+
+}
+.game{
+    width: 300px;
+    text-align: center;
+    font-family: system-ui;
+    margin: auto;
+    color: white;
+    
+}
+.title{
+    background: red;
+    padding: 5px 0;
+    margin: 5px 0;
+    text-align: center;
+}
+.carre{
+    background:linear-gradient(black,red) ;
+    background-attachment: fixed;
+
+    margin: 2px;
+    
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+  
+    background-color: white;
+}
+.carre:hover{
+    background: black;
+    cursor: pointer;
+}
+#l1{
+    color: white;
+}
+#j1{
+
+ color: white;
+}
+#jouer{
+    color: darkred;
+    background-color: dimgray;
+    text-align: center;
+    text-shadow: 1px 1px 5px;
+}
+#box1{
+    border: 5px solid;
+    width: 250 px ;
+    height: 250 px;
+    font-size: 22px;
+    background: yellow;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}

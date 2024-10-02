@@ -8,19 +8,23 @@ function scrollToElement(elementSelector, instance = 0) {
     }
 }
 
-const link1 = document.getElementById("link1");
-const link2 = document.getElementById("link2");
-const link3 = document.getElementById("link3");
+const linkProjets = document.getElementById("linkProjets");
+const linkCV = document.getElementById("linkCV");
+const linkDiplomes = document.getElementById("linkDiplomes");
+const linkApropos = document.getElementById("linkApropos");
 
-link1.addEventListener('click', () => {
+linkProjets.addEventListener('click', () => {
     scrollToElement('.header');
 });
 
-link2.addEventListener('click', () => {
-    // Scroll to the second element with "header" class
-    scrollToElement('.header', 1);
+linkCV.addEventListener('click', () => {
+    scrollToElement('.header', 1);  // Example: scroll to the second .header
 });
 
-link3.addEventListener('click', () => {
+linkDiplomes.addEventListener('click', () => {
     scrollToElement('.column');
+});
+
+linkApropos.addEventListener('click', () => {
+    scrollToElement('.about');
 });
